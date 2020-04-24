@@ -1,0 +1,2 @@
+rootProject.name='FingerPrintScanner'
+include ':app'
