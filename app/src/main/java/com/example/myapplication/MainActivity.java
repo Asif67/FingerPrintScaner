@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
             }
             else{
                 mParaLabel.setText("A");
+                FingerPrintHandler fingerPrintHandler = new FingerPrintHandler(this);
+                fingerPrintHandler.startAuth(fingerprintManager,null);
             }
         }
     }
